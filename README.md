@@ -8,10 +8,17 @@ Além das operações matemáticas, implementei um sistema que verifica o result
 
 ## Explicação do código 
 
-- Primeiro, utilizei `import math` para ter acesso às funções matemáticas necessárias para realizar o cálculo de logaritmos.
-- Depois, utilizei um loop `while` para permitir que a calculadora continue funcionando e realizando novos cálculos enquanto o usuário desejar. Dentro desse loop, também são solicitados os números que serão utilizados nas operações, usando `input()`.
-- Utilizei estruturas condicionais para identificar qual operação matemática o usuário deseja realizar, executar o cálculo correspondente e evitar possíveis erros que poderiam interromper a execução do programa.
-- Por fim, adicionei uma estrutura responsável por verificar se o resultado obtido é um número par ou ímpar. Depois disso, utilizei o comando `print()` para exibir o resultado do cálculo e informar ao usuário se o número é par ou ímpar.
+Foram utilizadas funções para organizar o código e evitar repetições. A função `pedir_numero()` valida os números digitados pelo usuário, enquanto `pedir_operacao()` verifica se a operação escolhida é válida. A função `calcular()` realiza a operação selecionada e trata erros, como divisão por zero e valores inválidos para logaritmos.
+
+O programa utiliza um `while` para permitir várias operações, `try/except` para evitar erros na entrada de dados e `if/elif` para selecionar os cálculos. Após cada operação, também verifica se o resultado é um número inteiro, identificando se ele é par ou ímpar.
+
+## Funcionalidades
+
+- Adição, subtração, multiplicação, divisão, potenciação e logaritmo.
+- Validação de números e operações.
+- Tratamento de divisão por zero.
+- Verificação de resultados pares e ímpares.
+- Possibilidade de realizar várias operações em sequência.
 
 ## Como executar o programa
 
