@@ -24,4 +24,4 @@ chmod +x script_calculadora.sh
 ```bash
 ./script_calculadora.sh
 ```
-O script irá iniciar o programa `parte1.py`
+O script irá iniciar o programa `calculadora.py`
