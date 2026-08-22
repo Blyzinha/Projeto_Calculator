@@ -2,6 +2,6 @@
 
 echo "Iniciando calculadora..."
 
-python3 parte1.py
+python3 calculadora.py
 
 echo "Finalizando calculadora..."
